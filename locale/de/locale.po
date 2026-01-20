@@ -1,0 +1,68 @@
+msgid "plugins.generic.googleFonts.displayName"
+msgstr "Google Fonts"
+
+msgid "plugins.generic.googleFonts.description"
+msgstr "Verwenden Sie beliebige Google Fonts in Ihrem Theme, ohne die Privatsphäre Ihrer Besucher zu beeinträchtigen."
+
+msgid "plugins.generic.googleFonts.fonts"
+msgstr "Schriftarten"
+
+msgid "plugins.generic.googleFonts.selectFont"
+msgstr "Schriftart auswählen"
+
+msgid "plugins.generic.googleFonts.addFont"
+msgstr "Schriftart hinzufügen"
+
+msgid "plugins.generic.googleFonts.addFont.description"
+msgstr "Wählen Sie eine der <a href=\"{$url}\" target=\"_blank\">Google Fonts</a> aus und fügen Sie sie Ihrer Website hinzu."
+
+msgid "plugins.generic.googleFonts.noFontsEnabled"
+msgstr "Sie haben Ihrer Website noch keine Schriftarten hinzugefügt."
+
+msgid "plugins.generic.googleFonts.howToUse"
+msgstr "Sie sehen die Schriftarten nicht auf Ihrer Website? Erfahren Sie, wie Sie in Ihrem Theme eine <a href=\"{$url}\" target=\"_blank\">benutzerdefinierte Schriftart verwenden</a>."
+
+msgid "plugins.generic.googleFonts.fontCountWarning"
+msgstr "Sie sollten nicht mehr als ein oder zwei Schriftarten auf Ihrer Website verwenden. <a href=\"{$url}\" target=\"_blank\">Mehr erfahren</a>"
+
+msgid "plugins.generic.googleFonts.technicalError"
+msgstr "Ein unerwarteter Fehler ist aufgetreten. Bitte wenden Sie sich an Ihre Systemadministration. Folgender Fehler ist aufgetreten: {$error}"
+
+msgid "plugins.generic.googleFonts.help.title"
+msgstr "Google-Fonts-Plugin: Häufige Fragen und Antworten"
+
+msgid "plugins.generic.googleFonts.help.about"
+msgstr "Das Google-Fonts-Plugin für OJS, OMP und OPS hilft Ihnen, beliebige <a href=\"{$googleFontsUrl}\" target=\"_blank\">Google Fonts</a> in Ihrem Theme zu verwenden, ohne die Privatsphäre Ihrer Besucher zu beeinträchtigen. Es lädt die Schriftdateien herunter, speichert sie und stellt sie Ihren Besuchern über Ihren eigenen Server bereit, sodass diese nicht von Google verfolgt werden."
+
+msgid "plugins.generic.googleFonts.help.fontsNotShown"
+msgstr "Ich habe Schriftarten hinzugefügt, aber sie werden auf meiner Website nicht angezeigt"
+
+msgid "plugins.generic.googleFonts.help.fontsNotShown.answer"
+msgstr "Das Plugin lädt die Schriftdateien auf Ihre Website, ändert jedoch nicht automatisch das Erscheinungsbild Ihrer Seite. Damit die Schriftarten angewendet werden, müssen sie den Textelementen Ihrer Website zugewiesen werden. Falls Ihr Theme dies nicht automatisch übernimmt, müssen Sie eigenen CSS-Code hinzufügen. Sie können benutzerdefiniertes CSS hochladen unter <strong>Einstellungen > Erscheinungsbild > Erweitert > Stylesheet</strong>."
+
+msgid "plugins.generic.googleFonts.help.fontsNotShown.example"
+msgstr "Nachfolgend finden Sie ein Beispiel für CSS-Code, der die Schriftart <strong>Urbanist</strong> auf einige Texte Ihrer Website anwendet."
+
+msgid "plugins.generic.googleFonts.help.fontsNotShown.contactAdmin"
+msgstr "Wenn Sie unsicher sind, wie Sie dies umsetzen, wenden Sie sich bitte an den technischen Support Ihres Journals, Publishers oder Preprint-Servers."
+
+msgid "plugins.generic.googleFonts.help.tooManyFonts"
+msgstr "Wie viele Schriftarten sollten verwendet werden?"
+
+msgid "plugins.generic.googleFonts.help.tooManyFonts.answer"
+msgstr "Sie sollten fast nie mehr als ein oder zwei Schriftarten auf Ihrer Website verwenden. Professionelle Designer kombinieren Schriftarten sehr sorgfältig und nutzen nur selten mehr als zwei für eine einzelne Website. Wenn Sie keinen professionellen Designer einbeziehen, sollten Sie eine Schriftart auswählen und diese konsequent verwenden."
+
+msgid "plugins.generic.googleFonts.help.gdpr"
+msgstr "Wie hilft dieses Plugin, die Privatsphäre meiner Besucher zu schützen?"
+
+msgid "plugins.generic.googleFonts.help.gdpr.answer"
+msgstr "Wenn Sie mit diesem Plugin eine Schriftart hinzufügen, lädt Ihr Server die Schriftdateien von Google herunter und speichert sie lokal. Besucher Ihrer Website erhalten die Schriftdateien dann von Ihrem Server statt direkt von Googles Servern."
+
+msgid "plugins.generic.googleFonts.help.gdpr.compliance"
+msgstr "Dies hilft bei der Einhaltung von Datenschutzbestimmungen wie der europäischen <a href=\"{$gdprUrl}\" target=\"_blank\">DSGVO</a>, ohne dass Sie rechtliche Hinweise in Ihre Datenschutzerklärung aufnehmen oder Ihre Nutzer ein Einwilligungs-Popup anklicken lassen müssen."
+
+msgid "plugins.generic.googleFonts.help.license"
+msgstr "Unter welcher Lizenz stehen diese Schriftarten?"
+
+msgid "plugins.generic.googleFonts.help.license.answer"
+msgstr "Alle Google Fonts stehen unter einer freien Lizenz, die eine kostenlose Nutzung erlaubt. Die meisten Schriftarten verwenden die <a href=\"{$silUrl}\" target=\"_blank\">SIL Open Font License</a>, jedoch kann dies je nach Schriftart variieren. Klicken Sie auf den Link neben jeder hinzugefügten Schriftart, um weitere Informationen zur jeweiligen Lizenz auf der Google-Fonts-Website zu erhalten."
