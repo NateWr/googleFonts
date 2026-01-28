@@ -119,8 +119,8 @@ const saveFont = async (font) => {
   const embedUrl = getFontEmbedUrl(font)
   const subsets = await getFontSubsets(embedUrl)
   if (!subsets[0]?.font) {
-    console.log('no subsets?', font, subsets)
-    throw new Error('No subsets?')
+    console.log(`Skipping ${font.family} because no subsets were found.`)
+    return false
   }
   const slug = getFamilyDir(subsets[0]?.font)
 
