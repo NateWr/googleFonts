@@ -4,6 +4,12 @@ A plugin for OJS, OMP or OPS to use any Google Font in your theme without compro
 
 ## Contribute
 
+Copy the `.env.example` file to `.env` and add your [Google Fonts API Key](https://developers.google.com/fonts/docs/developer_api#APIKey).
+
+```
+cp .env.example .env
+```
+
 Run the following [Node.js](https://nodejs.org) script to update the font list.
 
 ```
