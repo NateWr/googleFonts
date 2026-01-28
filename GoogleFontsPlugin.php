@@ -241,7 +241,7 @@ class GoogleFontsPlugin extends GenericPlugin
     {
         $matches = [];
         foreach ($options as $option) {
-            if (in_array($option->id, $fonts)) {
+            if (property_exists($option, 'id') && in_array($option->id, $fonts)) {
                 $matches[] = $option;
             }
         }
