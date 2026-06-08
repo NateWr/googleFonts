@@ -3,8 +3,11 @@
 use Illuminate\Support\Collection;
 
 import('lib.pkp.classes.plugins.GenericPlugin');
-import('plugins.generic.googleFonts.exceptions.GoogleFontsPluginException');
-import('plugins.generic.googleFonts.classes.GoogleFont');
+
+if (version_compare(PHP_VERSION, '8.0.0') >= 0) {
+    import('plugins.generic.googleFonts.exceptions.GoogleFontsPluginException');
+    import('plugins.generic.googleFonts.classes.GoogleFont');
+}
 
 class GoogleFontsPlugin extends GenericPlugin
 {
@@ -25,6 +28,10 @@ class GoogleFontsPlugin extends GenericPlugin
     public function register($category, $path, $mainContextId = null)
     {
         if (!parent::register($category, $path, $mainContextId)) {
+            return false;
+        }
+
+        if (version_compare(PHP_VERSION, '8.0.0') < 0) {
             return false;
         }
 
